@@ -6,6 +6,9 @@ export default defineNuxtConfig({
       meta: [{ name: "description", content: "this site for test" }],
     },
   },
+  typescript: {
+    typeCheck: true
+  },
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
   postcss: {

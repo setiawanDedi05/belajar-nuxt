@@ -1,5 +1,3 @@
-import { LineUp } from "../types/lineup";
-
 export default defineCachedEventHandler(
   async (event) => {
     try {
