@@ -45,5 +45,4 @@
 
 <script setup lang="ts">
     const {clusters} = defineProps(['clusters']);
-    console.log({clusters})
 </script>
