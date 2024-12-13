@@ -10,8 +10,10 @@ export default {
   ],
   theme: {
     extend: {
-      gradientColorStopPositions: {
-        33: '33%',
+      colors: {
+        "primary": '#141414',
+        "secondary": '#6fffe9',
+        "primary-foreground": '#333333e6',
       }
     },
   },

@@ -1,6 +1,6 @@
 <template>
-    <div class="mt-16 md:fixed left-0 w-full bg-[rgba(51,51,51,.9)]">
-        <div class="px-10 mg:bg-gradient-to-b md:from-[rgba(51,51,51,.9)] w-full h-16">
+    <div class="mt-16 md:fixed md:z-10 left-0 w-full bg-primary-foreground md:bg-transparent">
+        <div class="px-10 md:bg-gradient-to-b md:from-primary w-full h-16">
             <div class="h-16 flex items-center justify-between">
                 <div class="flex gap-2">
                     <button class="align-middle text-white text-3xl m-0 h-10 flex items-center">

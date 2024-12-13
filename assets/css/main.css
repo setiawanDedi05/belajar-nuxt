@@ -8,12 +8,27 @@
 
 .carousel__slide {
   width: 100%;
+  min-height: 200px;
   overflow: hidden;
 }
-
-/* .carousel__next, .carousel__prev {
+.carousel__next, .carousel__prev {
   display: none;
-} */
+}
+
+.carousel:hover .carousel__next {
+  background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1));
+  height: 100%;
+  color: white;
+  display: block;
+  margin-right: -5px;
+}
+.carousel:hover .carousel__prev {
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1));
+  height: 100%;
+  color: white;
+  display: block;
+  margin-left: -5px;
+}
 
 .carousel__pagination {
   position: absolute;
